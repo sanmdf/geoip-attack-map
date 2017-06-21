@@ -59,7 +59,7 @@ class WebSocketChatHandler(tornado.websocket.WebSocketHandler):
         print('[*] WebSocketChatHandler opened')
 
         try:
-            # This is the IP address of the DataServer
+            # This is the IP address of the RedisServer
             self.client = tornadoredis.Client('127.0.0.1')
             self.client.connect()
             print('[*] Connected to Redis server')
