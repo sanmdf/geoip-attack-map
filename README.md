@@ -83,8 +83,8 @@ Tested on Ubuntu 16.04 LTS.
   * Open a new terminal tab (Ctrl+Shift+T, on Ubuntu).
   
     ```sh
-    cd AttackMapServer/
-    unzip static/flags.zip
+    cd AttackMapServer/static
+    unzip flags.zip
     ``` 
  
 * Start the Attack Map Server:
